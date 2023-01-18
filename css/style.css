@@ -1,0 +1,29 @@
+/* GLOBAL */
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    user-select: none;
+}
+/* MAIN CSS */
+header {
+    margin: 0 auto;
+    width: 431px;
+}
+h1 {
+    background: url("../assets/background.png");
+    padding: 1.2rem 0;
+    margin: 0;
+}
+.score-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 6px;
+    background: #6b5ee2;
+}
